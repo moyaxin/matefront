@@ -14,11 +14,5 @@ export default defineConfig({
       Components({
         resolvers: [VantResolver()],
       }),
-    ],
-    proxy: {
-      '/api': {
-        target: 'http://101.34.244.76:9099',
-        changeOrigin: true
-      }
-    }
+    ]
   });
