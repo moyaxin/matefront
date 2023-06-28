@@ -2,122 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb1b238c-a107-4230-a87e-b87163e3c40e" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/aop/RequestInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sql/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../sql/ddl.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/algorithm/栈和队列/Five.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/algorithm/栈和队列/Four.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/algorithm/栈和队列/Six.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day1/CompletableFutureApiDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day1/CompletableFutureDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day1/CompletableFutureUseDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day1/FutureApiDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day1/FutureTaskDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day1/FutureTaskPoolDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day1/ThreadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day2/DeadLockDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day2/InterruptDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day2/ReentrantLockDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day2/TicketDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/juc/day3/LockSupperDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/MateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/MateApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/aop/RequestInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/common/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/common/BaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/common/DeleteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/common/DeleteRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/common/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/common/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/common/PageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/common/PageRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/common/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/common/ResultUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/config/AesSecretKeyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/config/AesSecretKeyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/config/Knife4jConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/config/Knife4jConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/config/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/config/RedisTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/config/RedisTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/config/TableListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/config/TableListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/constant/UserConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/constant/UserConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/controller/MiHaYouController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/controller/MiHaYouController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/controller/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/controller/TeamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/exception/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/job/PreCacheJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/job/PreCacheJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/job/SignJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/job/SignJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mapper/AutoLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mapper/AutoLogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mapper/AutoMihayouMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mapper/AutoMihayouMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mapper/TagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mapper/TagMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mapper/TeamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mapper/TeamMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mapper/UserTeamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mapper/UserTeamMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/common/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/common/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/common/MiHoYoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/common/MiHoYoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/common/MihayouConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/common/MihayouConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/common/URLConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/common/URLConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/Award.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/Award.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/Certification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/Certification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/Forum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/Forum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/GenshinHelperProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/GenshinHelperProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/HelpSys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/HelpSys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/LevelExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/LevelExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/PostResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/PostResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/PostStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/PostStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/SelfOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/SelfOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/Stat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/Stat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/service/DailyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/service/DailyTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/service/GenShinSignMiHoYo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/service/GenShinSignMiHoYo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/service/MiHoYoAbstractSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/service/MiHoYoAbstractSign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/service/MiHoYoSignMiHoYo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/service/MiHoYoSignMiHoYo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/service/Sign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/service/Sign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/util/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/util/HttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/mihayou/util/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/mihayou/util/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/ExcelData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/ExcelData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/WriteData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/WriteData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/dto/TeamQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/dto/TeamQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/entity/AutoLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/entity/AutoLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/entity/AutoMihayou.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/entity/AutoMihayou.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/entity/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/entity/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/entity/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/entity/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/entity/UserTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/entity/UserTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/enums/SignStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/enums/SignStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/enums/TeamStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/enums/TeamStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/request/MiHaYouRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/request/MiHaYouRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/request/TeamAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/request/TeamAddRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/request/TeamJoinRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/request/TeamJoinRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/request/TeamQuitRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/request/TeamQuitRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/request/TeamUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/request/TeamUpdateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/request/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/request/UserLoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/request/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/request/UserRegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/vo/TeamUserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/vo/TeamUserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/model/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/vo/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/AutoLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/AutoLogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/AutoMihayouService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/AutoMihayouService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/TagService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/TeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/TeamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/UserTeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/UserTeamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/impl/AutoLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/impl/AutoLogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/impl/AutoMihayouServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/impl/AutoMihayouServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/impl/TagServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/impl/TeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/impl/TeamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/service/impl/UserTeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/impl/UserTeamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/util/AesUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/util/AesUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/util/AlgorithmUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/util/AlgorithmUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/project/util/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/util/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/AutoLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mapper/AutoLogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/AutoMihayouMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mapper/AutoMihayouMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/TagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mapper/TagMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/TeamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mapper/TeamMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/UserTeamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mapper/UserTeamMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/AlgorithmUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/AlgorithmUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/InsertUsersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/InsertUsersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/SignTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/SignTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/model/MiUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/yaxin/project/service/model/MiUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/aop/MyAnnon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/aop/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/util/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/com/yaxin/mate/service/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/BasicLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/BasicLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/FriendsPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FriendsPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/IndexPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/IndexPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginUser.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginUser.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RegisterUser.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegisterUser.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RegisterUserByPhone.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegisterUserByPhone.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserShow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserShow.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/myAxios.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/myAxios.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/MateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/MateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/aop/RequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/aop/RequestInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/common/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/common/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/job/PreCacheJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/job/PreCacheJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/job/SignJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/job/SignJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/entity/AutoLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/entity/AutoLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/request/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/model/request/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/yaxin/mate/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application-prod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application-prod.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +41,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -141,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/project/companion/front",
+    "last_opened_file_path": "D:/project/bi-mq/myapp",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "ts.external.directory.path": "D:\\DevTool\\webStorm\\WebStorm 2022.1.4\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
@@ -162,6 +78,7 @@
       <workItem from="1686252632240" duration="15000" />
       <workItem from="1686346664236" duration="59000" />
       <workItem from="1686350876175" duration="60000" />
+      <workItem from="1687666890654" duration="25000" />
     </task>
     <servers />
   </component>

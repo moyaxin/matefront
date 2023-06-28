@@ -20,7 +20,10 @@
             <div @click="showUser(friend.id)" class="friend-name">
               {{ friend.username.slice(0, 14) }}
             </div>
-            <div style="padding-right: 10px;" @click="chat(friend.id,friend.username)">
+            <!-- <div style="padding-right: 10px;" @click="chat(friend.id,friend.username)">
+              <van-icon :content="friend.chatCount" max="99" :size="28" name="chat-o"/>  
+            </div> -->
+            <div style="padding-right: 10px;" @click="todo()">
               <van-icon :content="friend.chatCount" max="99" :size="28" name="chat-o"/>
             </div>
           </div>
@@ -52,6 +55,9 @@ const showUser = (id) => {
       userId: id
     }
   })
+}
+const todo = () => {
+  showFailToast("聊天功能暂未开通 !")
 }
 
 const search = async () => {

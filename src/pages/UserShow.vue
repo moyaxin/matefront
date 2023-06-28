@@ -153,7 +153,7 @@ const deleteFriend = async () => {
 
 }
 async function fetchGenshinData(){
-  const response = await request.post(`/user/showAvatarPic/${user.value.uid}`);
+  const response = await request.get(`/user/showAvatarPic/${user.value.uid}`);
   return response; // 返回请求结果
 }
 

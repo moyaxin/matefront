@@ -9,7 +9,9 @@
   <!--      <van-switch v-model="checked" size="22px" @click="cardiacSwitch()"/>-->
   <!--    </div>-->
   <!--  </div>-->
+  
   <user-list/>
+
   <div style="padding-top: 35px"></div>
 
 </template>
@@ -18,8 +20,8 @@
 import {showSuccessToast} from "vant";
 import {ref} from "vue";
 import UserList from "../components/UserList.vue";
-
-
+import getCurrent from "../service/currentUser";
+import { onMounted } from 'vue';
 const checked = ref(true);
 const cardiacSwitch = () => {
   if (checked.value) {
@@ -28,6 +30,9 @@ const cardiacSwitch = () => {
     showSuccessToast("心动模式已关闭")
   }
 }
+onMounted(async () => {
+  const loginUser = await getCurrent();
+})
 </script>
 
 <style scoped>

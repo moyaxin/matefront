@@ -183,9 +183,9 @@ const init = () => {
   if (typeof (WebSocket) == "undefined") {
     showFailToast("您的浏览器不支持WebSocket")
   } else {
-    // 区分线上和开发环境
-    let socketUrl = process.env.NODE_ENV !== "development" ? `wss://101.34.244.76:9099/api/websocket/${uid}/${stats.value.team.teamId}`
-        : `ws://localhost:8081/api/websocket/${uid}/${stats.value.team.teamId}`
+    // 区分线上和开发环境                                     //线上
+    let socketUrl = process.env.NODE_ENV !== "development" ? `wss://api.zssmqs.cn/api/websocket/${uid}/${stats.value.team.teamId}`
+        : `ws://localhost:8081/api/websocket/${uid}/${stats.value.team.teamId}`//后面的是开发
     if (socket != null) {
       socket.close();
       socket = null;

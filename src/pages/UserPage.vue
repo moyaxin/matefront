@@ -127,8 +127,8 @@ const afterRead = async (file: any) => {
   if (updateAvatarUrl.value) {
     const fileFile = file.file
     const res = await request.post("/file/upload", {
-      'file': fileFile,
-      'biz': "user_avatar"
+      'file': fileile,
+      'biz': "user_aFvatar"
     }, {
       headers: {'Content-Type': 'multipart/form-data'},
     })
@@ -180,9 +180,9 @@ const show_UserAvatarUrl_pop = ref("true")
 onMounted(async () => {
   const loginUser = await getCurrent();
   user.value = loginUser
-  imageList.value  = await fetchGenshinData(); // 直接将 response 赋值给 imageList 变量
-  console.log("imageList.value: ", imageList.value);
   if (loginUser) {
+    imageList.value  = await fetchGenshinData(); // 直接将 response 赋值给 imageList 变量
+    console.log("imageList.value: ", imageList.value);
     const show_updateUserAvatarUrl = sessionStorage.getItem("avatarUrl")
     show_UserAvatarUrl_pop.value = show_updateUserAvatarUrl ? show_updateUserAvatarUrl : show_UserAvatarUrl_pop.value
     if (show_UserAvatarUrl_pop.value === "true") {

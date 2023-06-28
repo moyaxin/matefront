@@ -20,7 +20,7 @@
     <van-tabbar-item icon="friends-o" name="friends" :badge="applyFriendsCount<=0?null:applyFriendsCount" replace
                      to="/friends">好友
     </van-tabbar-item>
-    <van-tabbar-item icon="chat-o" name="chat" replace to="/public_chat">聊天厅</van-tabbar-item>
+    <!-- <van-tabbar-item icon="chat-o" name="chat" replace to="/public_chat">聊天厅</van-tabbar-item> -->
     <van-tabbar-item icon="home-o" name="team" replace to="/team">队伍</van-tabbar-item>
     <van-tabbar-item icon="manager-o" name="user" replace to="/user">我的</van-tabbar-item>
   </van-tabbar>
@@ -44,7 +44,7 @@ const applyFriendsCount = ref(0)
 const recordId = ref([])
 
 routers.beforeEach((to) => {
-  title.value = to.meta.title || "原批社";
+  title.value = to.meta.title || "小鱼塘";
 })
 
 const onLift = () => {
